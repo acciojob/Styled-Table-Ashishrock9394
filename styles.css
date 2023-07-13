@@ -1,1 +1,17 @@
-/* your code */
+.game {
+	padding: 2px;
+	padding-bottom: 2px;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: left
+}
+thead{
+	color: white;
+	background: #004d99
+}
+tr,td {
+	border: 1px solid grey;
+}
+tr:nth-child(even){
+	background-color: #f0f0f5;
+}
